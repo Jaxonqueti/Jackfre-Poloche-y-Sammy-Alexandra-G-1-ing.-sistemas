@@ -18,7 +18,7 @@ public class gestionEstudiantes {
 
     public void agregarEstudiante() {
         if (cantidadActual >= capacidad_maxima) {
-            System.out.println("No se pueden agregar más estudiantes");
+            System.out.println("No se pueden agregar mas estudiantes");
             return;
         }
 
